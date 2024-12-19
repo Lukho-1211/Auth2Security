@@ -9,7 +9,7 @@ const { Strategy } = require('passport-google-oauth20');
 
 require('dotenv').config();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const config = {
     CLIENT_ID: process.env.CLIENT_ID,
