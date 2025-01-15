@@ -112,6 +112,7 @@ app.listen(PORT,()=>{
     console.log(`listerning to port ${PORT}...`);
 });
 
+export default app;
 // https.createServer({
 //     key: fs.readFileSync('key.pem'),
 //     cert: fs.readFileSync('cert.pem'),
